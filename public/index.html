@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pratham Sathish — Frontend Developer</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="logo">&lt;<span>PS</span> /&gt;</div>
+    <ul class="nav-links" id="navlinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="ham" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid">
+      <div>
+        <div class="hero-tag">Hello, world</div>
+        <h1 class="hero-name">Pratham<br /><span>Sathish</span></h1>
+        <div class="hero-typed"><span id="typed"></span><span class="cursor"></span></div>
+        <p class="hero-desc">
+          Final year MIT student at Deakin University. I build clean, responsive,
+          and user-focused web interfaces using React, JavaScript, Bootstrap, and Node.js.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-p">View my work</a>
+          <a href="#contact" class="btn-o">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-code" aria-hidden="true">
+        <div class="code-line"><span class="ln">1</span><span class="cm">// about me</span></div>
+        <div class="code-line"><span class="ln">2</span><span class="kw">const </span><span
+            class="vr">pratham</span><span> = {</span></div>
+        <div class="code-line"><span class="ln">3</span><span>&nbsp;&nbsp;</span><span class="fn">role</span><span>:
+          </span><span class="st">"Frontend Developer"</span><span>,</span></div>
+        <div class="code-line"><span class="ln">4</span><span>&nbsp;&nbsp;</span><span class="fn">location</span><span>:
+          </span><span class="st">"Burwood, VIC"</span><span>,</span></div>
+        <div class="code-line"><span class="ln">5</span><span>&nbsp;&nbsp;</span><span class="fn">skills</span><span>:
+            [</span></div>
+        <div class="code-line"><span class="ln">6</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+            class="st">"React"</span><span>, </span><span class="st">"JavaScript"</span><span>,</span></div>
+        <div class="code-line"><span class="ln">7</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+            class="st">"HTML"</span><span>, </span><span class="st">"CSS"</span><span>,</span></div>
+        <div class="code-line"><span class="ln">8</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+            class="st">"Bootstrap"</span><span>, </span><span class="st">"Tailwind CSS"</span><span>,</span></div>
+        <div class="code-line"><span class="ln">9</span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
+            class="st">"Node.js"</span><span>, </span><span class="st">"Express.js"</span></div>
+        <div class="code-line"><span class="ln">10</span><span>&nbsp;&nbsp;],</span></div>
+        <div class="code-line"><span class="ln">11</span><span>&nbsp;&nbsp;</span><span class="fn">openTo</span><span>:
+          </span><span class="st">"Intern roles"</span><span>,</span></div>
+        <div class="code-line"><span class="ln">12</span><span>&nbsp;&nbsp;</span><span class="fn">cgpa</span><span>:
+          </span><span class="op">9.01</span></div>
+        <div class="code-line"><span class="ln">13</span><span>};</span></div>
+        <div class="code-line"><span class="ln">14</span><span></span></div>
+        <div class="code-line">
+          <span class="ln">15</span>
+          <span class="fn">console</span><span>.</span><span class="fn">log</span>
+          <span>(</span><span class="vr">pratham</span><span>.</span><span
+            class="fn">openTo</span><span>)</span><span>;</span>
+        </div>
+
+        <div class="code-line"><span class="ln">16</span><span class="cm">// "Intern roles" ✓</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-dot"></div><span>scroll</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap">
+      <p class="sec-eyebrow">Who I am</p>
+      <h2 class="sec-title">About me</h2>
+      <div class="sec-bar"></div>
+      <div class="about-grid fade-in">
+        <div>
+          <p class="about-p">I'm a frontend developer and First year Master of IT student at Deakin University, Burwood.
+            I completed my Bachelor's in Computer and Communication Engineering at NMAM Institute of Technology with a
+            CGPA of 9.01.</p>
+          <p class="about-p">I've completed a 5-month frontend internship at Mindstack Technologies, building responsive
+            React interfaces, integrating REST APIs, and collaborating in agile sprints with senior developers.</p>
+          <p class="about-p">Outside coding I'm a competitive cricketer and volleyball player — sports that have
+            sharpened my teamwork and composure under pressure. I'm actively seeking junior frontend or React intern
+            roles in Australia.</p>
+          <div class="about-chips">
+            <span class="chip">React.js</span>
+            <span class="chip">HTML5</span>
+            <span class="chip">CSS3</span>
+            <span class="chip">Tailwind CSS</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">Bootstrap</span>
+            <span class="chip">Node.js</span>
+            <span class="chip">Express.js</span>
+            <span class="chip">REST APIs</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Java</span>
+            <span class="chip">Python</span>
+            <span class="chip">Git</span>
+          </div>
+        </div>
+        <div>
+          <div class="info-block">
+            <div class="info-item">
+              <div class="info-icon">📍</div>
+              <div>
+                <div class="info-label">Location</div>
+                <div class="info-val">Burwood, VIC 3125</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">🎓</div>
+              <div>
+                <div class="info-label">Studying</div>
+                <div class="info-val">MIT — Deakin University (2026-2027)</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">📧</div>
+              <div>
+                <div class="info-label">Email</div>
+                <div class="info-val">sprathamamin23@gmail.com</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">💼</div>
+              <div>
+                <div class="info-label">LinkedIn</div>
+                <div class="info-val">linkedin.com/in/pratham-s-5a3856290</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">💻</div>
+              <div>
+                <div class="info-label">GitHub</div>
+                <div class="info-val">github.com/pratham-amin</div>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">🎯</div>
+              <div>
+                <div class="info-label">Open to</div>
+                <div class="info-val">Junior Frontend / React Intern roles</div>
+              </div>
+            </div>
+          </div>
+          <div class="stat-row">
+            <div class="stat"><span class="stat-n">5+</span>
+              <div class="stat-l">Months internship</div>
+            </div>
+            <div class="stat"><span class="stat-n">5</span>
+              <div class="stat-l">Projects built</div>
+            </div>
+            <div class="stat"><span class="stat-n">9.01</span>
+              <div class="stat-l">B.E. CGPA</div>
+            </div>
+            <div class="stat"><span class="stat-n">10+</span>
+              <div class="stat-l">Technologies</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="wrap">
+      <p class="sec-eyebrow">What I work with</p>
+      <h2 class="sec-title">Skills</h2>
+      <div class="sec-bar"></div>
+      <div class="skills-wrap fade-in">
+        <div class="skill-card">
+          <div class="skill-cat">Frontend</div>
+          <div class="skill-item">
+            <div class="skill-row"><span class="skill-name">React.js</span><span class="skill-pct">85%</span></div>
+            <div class="bar-bg">
+              <div class="bar-fill" data-w="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-row"><span class="skill-name">JavaScript (ES6+)</span><span class="skill-pct">82%</span>
+            </div>
+            <div class="bar-bg">
+              <div class="bar-fill" data-w="82"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-row"><span class="skill-name">HTML5 / CSS3</span><span class="skill-pct">90%</span></div>
+            <div class="bar-bg">
+              <div class="bar-fill" data-w="90"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-row"><span class="skill-name">Bootstrap 5</span><span class="skill-pct">88%</span></div>
+            <div class="bar-bg">
+              <div class="bar-fill" data-w="88"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-row"><span class="skill-name">Tailwind CSS</span><span class="skill-pct">72%</span></div>
+            <div class="bar-bg">
+              <div class="bar-fill" data-w="72"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-cat">Backend &amp; Tools</div>
+          <div class="skill-item">
+            <div class="skill-row"><span class="skill-name">Node.js</span><span class="skill-pct">70%</span></div>
+            <div class="bar-bg">
+              <div class="bar-fill" data-w="70"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-row"><span class="skill-name">Express.js</span><span class="skill-pct">65%</span></div>
+            <div class="bar-bg">
+              <div class="bar-fill" data-w="65"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-row"><span class="skill-name">REST APIs</span><span class="skill-pct">80%</span></div>
+            <div class="bar-bg">
+              <div class="bar-fill" data-w="80"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-row"><span class="skill-name">Git / GitHub</span><span class="skill-pct">78%</span></div>
+            <div class="bar-bg">
+              <div class="bar-fill" data-w="78"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-row"><span class="skill-name">SQL</span><span class="skill-pct">68%</span></div>
+            <div class="bar-bg">
+              <div class="bar-fill" data-w="68"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-cat">Languages</div>
+          <div class="skill-item">
+            <div class="skill-row"><span class="skill-name">Java</span><span class="skill-pct">75%</span></div>
+            <div class="bar-bg">
+              <div class="bar-fill" data-w="75"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-row"><span class="skill-name">Python</span><span class="skill-pct">70%</span></div>
+            <div class="bar-bg">
+              <div class="bar-fill" data-w="70"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-row"><span class="skill-name">C / C#</span><span class="skill-pct">65%</span></div>
+            <div class="bar-bg">
+              <div class="bar-fill" data-w="65"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="wrap">
+      <p class="sec-eyebrow">What I've built</p>
+      <h2 class="sec-title">Projects</h2>
+      <div class="sec-bar"></div>
+      <div class="proj-grid fade-in">
+
+        <div class="proj-card">
+          <div class="proj-head">
+            <div class="proj-icon-wrap">✈️</div>
+            <div class="proj-links-top">
+              <a href="https://github.com/pratham-s" target="_blank" class="proj-link-icon" title="GitHub">GH</a>
+            </div>
+          </div>
+          <div class="proj-name">TripMania</div>
+          <div class="proj-desc">Modern travel discovery app built in React.js with component-based architecture,
+            client-side routing, and live destination data from a public travel API. Fully responsive across all
+            devices.</div>
+          <div class="proj-tags">
+            <span class="ptag">React.js</span><span class="ptag">REST API</span><span class="ptag">CSS3</span><span
+              class="ptag">Responsive</span>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-head">
+            <div class="proj-icon-wrap">🎬</div>
+            <div class="proj-links-top">
+              <a href="https://github.com/pratham-s" target="_blank" class="proj-link-icon" title="GitHub">GH</a>
+            </div>
+          </div>
+          <div class="proj-name">MovieFlix</div>
+          <div class="proj-desc">Pixel-accurate Netflix-inspired clone with dynamic movie listings via the TMDB API,
+            hero carousels, and hover effects. Built mobile-first with Bootstrap 5 grid and Node.js backend.</div>
+          <div class="proj-tags">
+            <span class="ptag">Bootstrap 5</span><span class="ptag">Node.js</span><span class="ptag">TMDB
+              API</span><span class="ptag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-head">
+            <div class="proj-icon-wrap">🌤️</div>
+            <div class="proj-links-top">
+              <a href="https://github.com/pratham-s" target="_blank" class="proj-link-icon" title="GitHub">GH</a>
+            </div>
+          </div>
+          <div class="proj-name">Weather App</div>
+          <div class="proj-desc">Real-time weather app integrating the OpenWeatherMap REST API. Fetches live
+            temperature, humidity and conditions by city with async/await, full error handling, and a responsive UI.
+          </div>
+          <div class="proj-tags">
+            <span class="ptag">JavaScript</span><span class="ptag">OpenWeatherMap API</span><span
+              class="ptag">Async/Await</span>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-head">
+            <div class="proj-icon-wrap">🛍️</div>
+            <div class="proj-links-top">
+              <a href="https://github.com/pratham-s" target="_blank" class="proj-link-icon" title="GitHub">GH</a>
+            </div>
+          </div>
+          <div class="proj-name">E-Commerce Fashion Site</div>
+          <div class="proj-desc">Multi-page e-commerce site with product listings, filtering, cart UI and checkout flow.
+            Uses semantic HTML and accessible design for improved usability across screen sizes.</div>
+          <div class="proj-tags">
+            <span class="ptag">HTML5</span><span class="ptag">CSS3</span><span class="ptag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="proj-card">
+          <div class="proj-head">
+            <div class="proj-icon-wrap">🚆</div>
+            <div class="proj-links-top">
+              <a href="https://github.com/pratham-s" target="_blank" class="proj-link-icon" title="GitHub">GH</a>
+            </div>
+          </div>
+          <div class="proj-name">Railway Management System</div>
+          <div class="proj-desc">Console-based system managing train schedules, seat bookings and passenger records with
+            full CRUD operations and a relational database schema supporting multiple routes.</div>
+          <div class="proj-tags">
+            <span class="ptag">Java</span><span class="ptag">SQL</span><span class="ptag">CRUD</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="wrap">
+      <p class="sec-eyebrow">Where I've worked</p>
+      <h2 class="sec-title">Experience</h2>
+      <div class="sec-bar"></div>
+      <div class="tl fade-in">
+        <div class="tl-item">
+          <div class="tl-left">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-top">
+              <div class="tl-role">Frontend Developer Intern</div>
+              <div class="tl-date">Dec 2024 – Apr 2025</div>
+            </div>
+            <div class="tl-co">MIndstack Technologies — Mangalore, Karnataka</div>
+            <ul class="tl-ul">
+              <li>Built and delivered 4+ responsive web pages using React.js and Bootstrap 5, reducing client turnaround
+                by ~20%.</li>
+              <li>Integrated third-party REST APIs to render dynamic content across 3 client projects, improving data
+                freshness.</li>
+              <li>Collaborated in agile sprints, participating in code reviews and daily stand-ups with senior
+                developers.</li>
+              <li>Refactored legacy CSS into reusable component-based styles, reducing stylesheet size by ~30%.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-left">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-card">
+            <div class="tl-top">
+              <div class="tl-role">Web Developer Intern</div>
+              <div class="tl-date">Feb 2023 – Mar 2023</div>
+            </div>
+            <div class="tl-co">Electromotive Club — Bangalore, Karnataka</div>
+            <ul class="tl-ul">
+              <li>Designed and developed a club showcase website using HTML, CSS, and JavaScript, improving online
+                visibility.</li>
+              <li>Implemented responsive layouts ensuring compatibility across desktop and mobile devices.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="wrap">
+      <p class="sec-eyebrow">Academic background</p>
+      <h2 class="sec-title">Education</h2>
+      <div class="sec-bar"></div>
+      <div class="edu-list fade-in">
+        <div class="edu-card">
+          <div>
+            <div class="edu-deg">Master of Information Technology</div>
+            <div class="edu-sch">Deakin University, Burwood VIC</div>
+          </div>
+          <div>
+            <div class="edu-yr">2026 – 2027</div>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div>
+            <div class="edu-deg">B.E. Computer &amp; Communication Engineering</div>
+            <div class="edu-sch">NMAM Institute of Technology, Nitte</div>
+          </div>
+          <div>
+            <div class="edu-yr">2021 – 2025</div>
+            <div class="edu-grd">CGPA: 9.01 / 10</div>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div>
+            <div class="edu-deg">Pre-University Course (PCMS)</div>
+            <div class="edu-sch">Sharada PU College, Mangalore</div>
+          </div>
+          <div>
+            <div class="edu-yr">2019 – 2021</div>
+            <div class="edu-grd">98%</div>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div>
+            <div class="edu-deg">SSLC</div>
+            <div class="edu-sch">Bharathi English Medium School, Kulai</div>
+          </div>
+          <div>
+            <div class="edu-yr">2019</div>
+            <div class="edu-grd">93%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="wrap">
+      <p class="sec-eyebrow">Let's connect</p>
+      <h2 class="sec-title">Get in touch</h2>
+      <div class="sec-bar"></div>
+      <div class="contact-grid fade-in">
+        <div>
+          <p class="contact-p">I'm actively looking for junior frontend or React intern roles in Melbourne and remotely
+            across Australia. If you have an opportunity or want to connect, I'd love to hear from you.</p>
+          <div class="c-links">
+            <a href="mailto:sprathamamin23@gmail.com" class="c-link">
+              <div class="c-link-ic">✉</div>sprathamamin23@gmail.com
+            </a>
+            <a href="https://linkedin.com/in/pratham-s-5a3856290" target="_blank" class="c-link">
+              <div class="c-link-ic">in</div>linkedin.com/in/pratham-s-5a3856290
+            </a>
+            <a href="https://github.com/pratham-s" target="_blank" class="c-link">
+              <div class="c-link-ic">GH</div>github.com/pratham-s
+            </a>
+          </div>
+        </div>
+        <form class="form" id="contactForm">
+          <div class="fg"><label>Name</label><input type="text" placeholder="Jane Smith" required /></div>
+          <div class="fg"><label>Email</label><input type="email" placeholder="jane@company.com" required /></div>
+          <div class="fg"><label>Message</label><textarea
+              placeholder="Hi Pratham, I'd love to discuss an opportunity..." required></textarea></div>
+          <button type="submit" class="form-btn" id="fbtn">Send message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p class="mono">&lt;built by <span>Pratham Sathish</span> with HTML, CSS &amp; JS /&gt;</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
