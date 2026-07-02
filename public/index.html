@@ -526,10 +526,19 @@
           </div>
         </div>
         <form class="form" id="contactForm">
-          <div class="fg"><label>Name</label><input type="text" placeholder="Jane Smith" required /></div>
-          <div class="fg"><label>Email</label><input type="email" placeholder="jane@company.com" required /></div>
-          <div class="fg"><label>Message</label><textarea
-              placeholder="Hi Pratham, I'd love to discuss an opportunity..." required></textarea></div>
+          <div class="fg">
+            <label>Name</label>
+            <input type="text" name="name" placeholder="Jane Smith" required />
+          </div>
+          <div class="fg">
+            <label>Email</label>
+            <input type="email" name="email" placeholder="jane@company.com" required />
+          </div>
+          <div class="fg">
+            <label>Message</label>
+            <textarea name="message" placeholder="Hi Pratham, I'd love to discuss an opportunity..."
+              required></textarea>
+          </div>
           <button type="submit" class="form-btn" id="fbtn">Send message</button>
         </form>
       </div>
