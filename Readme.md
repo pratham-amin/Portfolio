@@ -31,16 +31,17 @@ A fully responsive personal portfolio website built with pure HTML, CSS, and van
 ## 📸 Screenshots
 
 ### Hero Section
-![Hero](screenshots/hero.png)
+![Hero](public/screenshots/hero.png)
 
 ### Projects Section
-![Projects](screenshots/projects.png)
+![Projects](public/screenshots/projects1.png)
+![Projects](public/screenshots/projects2.png)
 
 ### Skills Section
-![Skills](screenshots/skills.png)
+![Skills](public/screenshots/skills.png)
 
 ### Contact Section
-![Contact](screenshots/contact.png)
+![Contact](public/screenshots/contact.png)
 
 ## 🚀 Getting Started
 
