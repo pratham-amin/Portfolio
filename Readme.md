@@ -2,7 +2,7 @@
 
 A fully responsive personal portfolio website built with pure HTML, CSS, and vanilla JavaScript — no frameworks, no build tools. Features smooth animations, a typed hero effect, animated skill bars, and a working contact form.
 
-![Portfolio Preview](screenshots/hero.png)
+![Portfolio Preview](public/screenshots/hero.png)
 
 ## 🔗 Live Demo
 [View Live Portfolio](https://portfolio-pratham-amin.vercel.app/)
