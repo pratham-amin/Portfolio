@@ -35,6 +35,7 @@ A fully responsive personal portfolio website built with pure HTML, CSS, and van
 
 ### Projects Section
 ![Projects](public/screenshots/projects1.png)
+
 ![Projects](public/screenshots/projects2.png)
 
 ### Skills Section
