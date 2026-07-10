@@ -107,17 +107,10 @@ fetch('https://formspree.io/f/YOUR_FORM_ID', {
 
 ## 👨‍💻 About Me
 
-I'm a frontend developer and final year Master of IT student at Deakin University, Burwood. I completed my Bachelor's in Computer and Communication Engineering at NMAM Institute of Technology with a CGPA of 9.01.
+I'm a frontend developer and first year Master of IT student at Deakin University, Burwood. I completed my Bachelor's in Computer and Communication Engineering at NMAM Institute of Technology with a CGPA of 9.01.
 
 - 📍 Burwood, VIC, Australia
 - 📧 sprathamamin23@gmail.com
 - 💼 [LinkedIn](https://linkedin.com/in/pratham-s-5a3856290)
 - 💻 [GitHub](https://github.com/pratham-amin)
 
-## 📄 License
-
-MIT — feel free to use this as a template for your own portfolio.
-
----
-
-⭐ If you found this helpful, consider giving the repo a star!
