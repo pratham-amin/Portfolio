@@ -111,6 +111,6 @@ I'm a frontend developer and first year Master of IT student at Deakin Universit
 
 - 📍 Burwood, VIC, Australia
 - 📧 sprathamamin23@gmail.com
-- 💼 [LinkedIn](https://linkedin.com/in/pratham-s-5a3856290)
+- 💼 [LinkedIn](https://linkedin.com/in/pratham-sathish)
 - 💻 [GitHub](https://github.com/pratham-amin)
 
